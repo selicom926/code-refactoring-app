@@ -20,7 +20,8 @@ onload = () => {
 
     // タスクを削除する
     function deleteTask(e) {
-        tasks.removeTask(e.target.dataset.task);
+		tasks.removeTask(e.target.dataset.task);
+		
         create();
     }
 
