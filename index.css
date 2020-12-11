@@ -1,0 +1,22 @@
+.todo {
+    max-width: 400px;
+    min-width: 200px;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 1%;
+    margin: auto;
+}
+
+.todo__input__form {
+    width: 80%;
+    padding: 10px;
+}
+
+.todo__input__button {
+    padding: 10px;
+}
+
+.todo__list__item {
+    display: flex;
+    justify-content: space-between;
+}
